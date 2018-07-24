@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <title> News Source </title>
@@ -6,36 +7,85 @@
 <link rel="shortcut icon" type="image/png" href="images/nsicon.png">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
 
-<head>
 
 </head>
 
 <body>
-  <center>
-    <div class="navbar">
-      <a href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#photos">Photos</a>
-    </div>
-  </center>
 
 
 
-  <h2>Home</h2>
-  </p>
-  <p>
-  Welcome to News Source! We strive to deliver quality news to people from all walks of life.
-  </p>
-
-  <!-- <style>
-
-    header {
-      background-color: #CC0000;
+  <style>
+  header {
+      background-color: #800000;
       padding: 30px;
       text-align: center;
       font-size: 35px;
-      color: green;
-    }
-  </style> -->
+      color: white;
+  }
+</style>
+  <header>
+    <h2><div id="headingline" > News Source </h2>
+  </header>
+
+
+  <style>
+
+
+  {
+     box-sizing: border-box;
+ }
+
+
+ body {
+     font-family: "Lobster", Helvetica, sans-serif;
+ }
+  </style>
+
+
+
+
+
+    <center>
+      <div class="navbar">
+        <form method="get"action="html.html">
+          <button class="button1"> Home </button>
+        </form>
+        <form method="get"action="staff_page.html">
+          <button class="button1"> Our Staff </button>
+        </form>
+        <form method="get"action="article_page.html">
+          <button class="button1"> Articles </button>
+        </form>
+
+      </div>
+
+
+  <h2>Home</h2>
+
+  <p>
+  Welcome to News Source! We strive to deliver quality news to people from all walks of life. </p>
+  <p>We create new source to allow people to get the old fashion feel of a newspaper with the</p>
+  <p>modern use of today's technology. We believe that are newspaper keep you up to date on all</p>
+  <p>the latest stories in a fast efficient way.</p>
+</h3>
+
+  <img src="Images/thisisus.jpg"
+  width="350"
+  height="400">
+
+  <footer>
+      <script src="js/nerves.js"></script>
+      <button onClick="askUser()">Subscribe to us!</button>
+      <localStorage.setItem("Email Address");>
+  </footer>
+    </center>
+
+
+
+
+
+
+
 </body>

@@ -1,7 +1,13 @@
-body{
-
-    background-repeat: no-repeat;
-    background-size: cover;
-  background-image: url("images/red_white.jpg");
-
+h1{
+  font-family: 'Lobster';
+  font-size: 80px;
 }
+
+.button1{
+  color: red;
+  display: inline-block;
+  border: solid;
+  border-radius: 10px;
+}
+
+/* <buttton class="button button1"> */
